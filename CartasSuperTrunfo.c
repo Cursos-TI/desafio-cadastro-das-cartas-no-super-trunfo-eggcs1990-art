@@ -12,10 +12,10 @@ int main() {
     
     char estado1[10];
     char estado2[10];
-    char codigoestado1[50];
-    char codigoestado2[50];
-    char nomecidade1[50];
-    char nomecidade2[50];
+    char codigo1[50];
+    char codigo2[50];
+    char cidade1[50];
+    char cidade2[50];
     int populacao1, populacao2;
     int pontosturisticos1, pontosturisticos2;
     float area1, area2;
@@ -26,13 +26,13 @@ int main() {
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
     printf("Insira a opção do estado - carta 1: \n");
-    scanf("%s", &estado1);
+    scanf("%s", estado1);
 
     printf("Insira o código do estado -  carta 1: \n");
-    scanf("%s", &codigoestado1);
+    scanf("%s", codigo1);
 
     printf("Insira o nome da cidade - carta 1: \n");
-    scanf("%s", &nomecidade1);
+    scanf("%s", cidade1);
 
     printf("Insira o número da população - carta 1: \n");
     scanf("%d", &populacao1);
@@ -48,8 +48,8 @@ int main() {
 
     printf("         Carta 1     \n");
     printf("Estado: %s \n", estado1);
-    printf("Codigo: %s \n", codigoestado1);
-    printf("Cidade: %s \n", nomecidade1);
+    printf("Codigo: %s \n", codigo1);
+    printf("Cidade: %s \n", cidade1);
     printf("População: %d habitantes \n", populacao1);
     printf("Pontos turisticos: %d \n", pontosturisticos1);
     printf("Área: %.2f km² \n", area1);
@@ -57,13 +57,13 @@ int main() {
 
     
     printf("Inserir a opção do estado - carta 2: \n");
-    scanf("%s", &estado2);
+    scanf("%s", estado2);
 
     printf("Insira o código do estado - carta 2: \n");
-    scanf("%s", &codigoestado2);
+    scanf("%s", codigo2);
 
     printf("Insira o nome da cidade - carta 2: \n");
-    scanf("%s", &nomecidade2);
+    scanf("%s", cidade2);
 
     printf("Insira o número da população - carta 2: \n");
     scanf("%d", &populacao2);
@@ -84,8 +84,8 @@ int main() {
     
     printf("         Carta 2     \n");
     printf("Estado: %s \n", estado2);
-    printf("Codigo: %s \n", codigoestado2);
-    printf("Cidade: %s \n", nomecidade2);
+    printf("Codigo: %s \n", codigo2);
+    printf("Cidade: %s \n", cidade2);
     printf("População: %d habitantes \n", populacao2);
     printf("Pontos turisticos: %d \n", pontosturisticos2);
     printf("Área: %.2f km² \n", area2);
